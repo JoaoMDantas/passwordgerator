@@ -8,7 +8,7 @@ const symbols=document.querySelector('.sym');
 const gerador=document.querySelector('.gerator-password');
 export default ()=>{
     gerador.addEventListener('click', (e)=>{
-        console.log(wordMaior.checked);
+       
         text.innerHTML=gera();
     })
 }

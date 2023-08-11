@@ -75,7 +75,6 @@ var symbols = document.querySelector('.sym');
 var gerador = document.querySelector('.gerator-password');
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (function () {
   gerador.addEventListener('click', function (e) {
-    console.log(wordMaior.checked);
     text.innerHTML = gera();
   });
 });
